@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Luna",
+        "breed": "Bordoodle (F1)",
+        "color": "Black & White",
+        "gender": "Female",
+        "price": 2500,
+        "status": "Available",
+        "dob": "2025-10-15",
+        "description": "Sweet and playful, Luna loves to fetch and cuddle.",
+        "image": "/puppy1.png"
+    },
+    {
+        "id": 2,
+        "name": "Cooper",
+        "breed": "Bordoodle (F1)",
+        "color": "Merle",
+        "gender": "Male",
+        "price": 2800,
+        "status": "Available",
+        "dob": "2025-10-15",
+        "description": "Outgoing and energetic, Cooper is looking for an active family.",
+        "image": "/puppy1.png"
+    },
+    {
+        "id": 3,
+        "name": "Bella",
+        "breed": "Bordoodle (F1)",
+        "color": "Chocolate",
+        "gender": "Female",
+        "price": 2500,
+        "status": "Reserved",
+        "dob": "2025-10-15",
+        "description": "Calm and gentle, the perfect lap dog.",
+        "image": "/puppy1.png"
+    }
+]

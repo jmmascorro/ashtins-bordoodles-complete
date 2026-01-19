@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Sir Barkalot",
+        "role": "Sire",
+        "breed": "Standard Poodle",
+        "color": "Apricot",
+        "weight": "45 lbs",
+        "description": "The proud father. Intelligent, regal, and loves to swim.",
+        "image": "/parent1.png"
+    },
+    {
+        "id": 2,
+        "name": "Lady Fluff",
+        "role": "Dam",
+        "breed": "Border Collie",
+        "color": "Black & White",
+        "weight": "35 lbs",
+        "description": "The loving mother. Incredible herding instinct and very affectionate.",
+        "image": "/parent1.png"
+    }
+]
