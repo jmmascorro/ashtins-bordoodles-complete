@@ -18,11 +18,11 @@ if (isProduction) {
             dialect: 'mysql',
             logging: false,
             port: process.env.DB_PORT || 3306,
-            dialectOptions: {
+            dialectOptions: process.env.DB_SSL === 'true' ? {
                 ssl: {
                     rejectUnauthorized: false // Often required for cloud DBs
                 }
-            }
+            } : {}
         }
     );
 } else {
