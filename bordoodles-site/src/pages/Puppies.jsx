@@ -26,7 +26,7 @@ function PuppyCard({ puppy }) {
         if (!path) return '';
         if (path.startsWith('http')) return path;
 
-        const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+        const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:3000' : '');
         console.log('🖼️ Image Debug:', { path, API_URL, result: `${API_URL}${path}` }); // Debug Log
         return `${API_URL}${path}`;
     };
@@ -92,7 +92,7 @@ export default function Puppies() {
     const [puppies, setPuppies] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+    const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:3000' : '');
 
     useEffect(() => {
         fetch(`${API_URL}/api/puppies`)
